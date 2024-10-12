@@ -2,7 +2,7 @@
     background: url(../images/imga3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: center;
+    background-position: center;
     width: 100%;
     height: 400px;
 
@@ -11,6 +11,24 @@
 .images img {
     width: 100%;
     height: 400px;
+}
+
+.police-Dancing{
+    font-family:"Dancing Script";
+}
+
+.hero1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/model.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.hero1 h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 768px){
